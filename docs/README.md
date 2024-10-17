@@ -31,7 +31,7 @@ Function ***area*** takes two numbers as arguments **a**, **b** : (**rectangle's
 > 
 > *Output*: **30**
  
-## Formula: **S = a*2 + b*2**
+## Formula: **S = a * 2 + b * 2**
 Function ***perimetr*** takes two numbers as arguments **a**, **b** : (**rectangle's width and length**), makes ***addition*** between doucle **a** and double **b**.
 
 >***Example***
@@ -42,7 +42,7 @@ Function ***perimetr*** takes two numbers as arguments **a**, **b** : (**rectang
  
 # Square: 
 ## Formula: **S = a * a**
-Function ***area*** takes number **a** as an argument and returns ***squared number a2***.
+Function ***area*** takes number **a** as an argument and returns ***squared number a***.
 
 >***Example***
 > 
@@ -52,7 +52,7 @@ Function ***area*** takes number **a** as an argument and returns ***squared num
 
 
 ## Formula: **P = 4 * a**
-Function ***perimetr*** takes number **a** an an argument and returns ***a multiplied bu 4***.
+Function ***perimetr*** takes number **a** an an argument and returns ***a multiplied by 4***.
 
 >***Example***
 > 
@@ -81,6 +81,18 @@ Function ***perimetr*** takes numbers **a, b, b** as arguments(***size of a tria
 > 
 > *Output*: **15**
 
+# Project history
 
+>**814279b** (HEAD -> new_features_405095) Added changed RREADME file
+>
+>**bf0f43e** (origin/new_features_405095) Changed formula in rectangle.py
+>
+>**4268c8b** Added triangle.py
+>
+>**f831743** Added rectangle.py
+>
+>**d078c8d** (origin/main, origin/HEAD, main, 405095) L-03: Docs added
+>
+>**8ba9aeb*** L-03: Circle and square added
 
 
