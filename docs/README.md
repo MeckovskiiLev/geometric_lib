@@ -1,6 +1,6 @@
 # Math formulas
 ###
-# Circle:
+# [Circle:](../circle.py)
 ## Formula: **S = πR²**
 
 Function ***area*** takes as an argument number **r** and makes multiplication betweer **r**, **r** and number **π**.
@@ -21,7 +21,7 @@ Function ***perimetr*** takes as an argument number **r** and makes multiplicati
 > 
 > *Output*: **12.566**
 
-# Rectangle: 
+# [Rectangle:](../rectangle.py) 
 ## Formula: **S = ab**
 Function ***area*** takes two numbers as arguments **a**, **b** : (**rectangle's width and length**) and makes ***multiplication*** between them.
 
@@ -40,7 +40,7 @@ Function ***perimetr*** takes two numbers as arguments **a**, **b** : (**rectang
 > 
 > *Output*: **22**
  
-# Square: 
+# [Square:](../square.py) 
 ## Formula: **S = a * a**
 Function ***area*** takes number **a** as an argument and returns ***squared number a***.
 
@@ -60,7 +60,7 @@ Function ***perimetr*** takes number **a** an an argument and returns ***a multi
 > 
 > *Output*: **20**
 
-# Triangle:
+# [Triangle:](../triangle.py)
 ## Formula: **S = (a * h) / 2**
 
 Function ***area*** takes number **a** and **h** as arguments(***size of triangle's side and its height***) and returns ***multiplied a and h devided by 2***.
@@ -73,7 +73,7 @@ Function ***area*** takes number **a** and **h** as arguments(***size of triangl
 
 ## Formula: **P = a + b + c**
 
-Function ***perimetr*** takes numbers **a, b, b** as arguments(***size of a triangle's sizes***) and returns *** and ***adds*** all the sides.
+Function ***perimetr*** takes numbers **a, b, b** as arguments(***size of a triangle's sizes***) and returns and ***adds*** all the sides.
 
 >***Example***
 > 
@@ -83,16 +83,13 @@ Function ***perimetr*** takes numbers **a, b, b** as arguments(***size of a tria
 
 # Project history
 
->**814279b** (HEAD -> new_features_405095) Added changed RREADME file
+>[**814279b**](https://github.com/MeckovskiiLev/geometric_lib/commit/814279bce509b35efb766b1689c099c764d4871c) (HEAD -> new_features_405095) Added changed RREADME file
 >
->**bf0f43e** (origin/new_features_405095) Changed formula in rectangle.py
+>[**bf0f43e**](https://github.com/MeckovskiiLev/geometric_lib/commit/bf0f43e4a708aaa0421d4f05e98ba615fe000a6a) (origin/new_features_405095) Changed formula in rectangle.py
 >
->**4268c8b** Added triangle.py
+>[**4268c8b**](https://github.com/MeckovskiiLev/geometric_lib/commit/4268c8b6718093569694ab4406805f2a5f6cde9f) Added triangle.py    
 >
->**f831743** Added rectangle.py
->
->**d078c8d** (origin/main, origin/HEAD, main, 405095) L-03: Docs added
->
->**8ba9aeb*** L-03: Circle and square added
+>[**f831743**](https://github.com/MeckovskiiLev/geometric_lib/commit/f8317430564534c93183cf2f25242ed5c93e662d) Added rectangle.py
+
 
 
