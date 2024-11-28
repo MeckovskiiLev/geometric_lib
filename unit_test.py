@@ -2,7 +2,7 @@ import unittest
 import math
 from circle import area as circle_area, perimeter as circle_perimeter
 from rectangle import area as rec_area, perimeter as rec_perimeter
-from square import area as sq_area, perimeter as sq_perimeter
+from square import area as sq_area, perimeter as sq_perimeter 
 from triangle import area as tri_area, perimeter as tri_perimeter
 
 class CircleTestCase(unittest.TestCase):
