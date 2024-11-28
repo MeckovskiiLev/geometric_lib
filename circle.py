@@ -17,7 +17,7 @@ def perimeter(r):
 
     Example.
     Input: 2
-    Output: 12.566
+    Output: 12.566   
 
     '''
     return 2 * math.pi * r
