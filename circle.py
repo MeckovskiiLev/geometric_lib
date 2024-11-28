@@ -6,7 +6,7 @@ def area(r):
 
     Example:
     Input: 2
-    Output: 6.283
+    Output: 6.283    
     
     '''
     return math.pi * r * r
