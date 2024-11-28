@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "unit_test_405095" ]
   pull_request:
-    branches: [ "**" ]
+    branches: [ "unit_test_405095" ]
   workflow_dispatch:
 
 jobs:
