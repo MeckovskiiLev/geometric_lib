@@ -15,13 +15,7 @@ jobs:
         os: [ubuntu-latest, windows-latest]
 
     steps:
-
-      - name: Set up Git
-        run: |
-          choco install git
-          git --version
-
-          
+    
       - name: Checkout repository
         uses: actions/checkout@v4
 
