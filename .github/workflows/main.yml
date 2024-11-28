@@ -1,8 +1,11 @@
 name: CI/CD
 
-on: 
+on:
   push:
-    branches: ["lab_5_CI/CD"]
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "**" ]
+  workflow_dispatch:
 
 jobs:
   test:
