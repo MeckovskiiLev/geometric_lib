@@ -2,9 +2,9 @@ name: CI/CD
 
 on:
   push:
-    branches: [ "**" ]
+    branches: [ "unit_test_405095" ]
   pull_request:
-    branches: [ "**" ]
+    branches: [ "unit_test_405095" ]
   workflow_dispatch:
 
 jobs:
@@ -15,12 +15,12 @@ jobs:
         os: [ubuntu-latest, windows-latest]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'
+          python-version: '3.8'
           
       - name: Run tests
         run: python unit_test.py
