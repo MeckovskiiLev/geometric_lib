@@ -12,7 +12,7 @@ class CircleTestCase(unittest.TestCase):
         self.assertAlmostEqual(circle_area(2), math.pi * 2 * 2, places=5) 
         self.assertAlmostEqual(circle_area(0), 0, places=5)
         self.assertAlmostEqual(circle_area(2147483647), math.pi * 2147483647 * 2147483647, places=5) 
-        # self.assertAlmostEqual(circle_area(-8), "Negative number was detected: Circle::area", places=5) 
+        self.assertAlmostEqual(circle_area(-8), "Negative number was detected: Circle::area", places=5) 
     
     def test_perimeter(self):
         
