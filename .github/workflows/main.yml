@@ -25,3 +25,6 @@ jobs:
 
       - name: Run tests
         run: python unit_test.py
+      - name: Run tests
+        run: python unit_test.py
+        continue-on-error: ${{ matrix.os == 'ubuntu-latest' }}
