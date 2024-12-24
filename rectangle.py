@@ -11,7 +11,7 @@ def perimeter(a, b):
     '''принимает числа a и b, возвращает сумму удвоенного значния a с удвоенным значением b
     
     Example
-    Input: 5 6
+    Input: 5 6   
     Output: 22
     '''
     return a*2 + b*2
